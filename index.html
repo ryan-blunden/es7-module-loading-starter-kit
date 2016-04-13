@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RabbitBird ES2015 Kit</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<script src="js/lib/system.js"></script>
+<script>
+    System.config({
+        defaultJSExtensions: true,
+
+        baseURL: '/js',
+        map: {
+            'babel-polyfill': '/js/lib/babel-polyfill',
+            'jquery': '/js/lib/jquery-2.2.3.min'
+        }
+    });
+
+    System.import('main');
+</script>
+</body>
+</html>
