@@ -32,7 +32,7 @@ Run in this order:
  - `npm run build`
  - `npm run server`
  
- After running `npm run server`, open a web browser and navigate to http://localhost:8080/. Open the Developer Tools for your browser and you should see a message in the console.
+After running `npm run server`, open a web browser and navigate to http://localhost:8080/. Open the Developer Tools for your browser and you should see a message in the console.
  
  
 ## Supported browsers 
