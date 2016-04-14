@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Ryan Blunden <ryan.blunden at rabbitbird dot com>",
   "scripts": {
-    "check": "babel-doctor ",
+    "check": "babel-doctor",
     "lint": "eslint es/**",
     "build": "babel es --out-dir js",
     "server": "http-server ./"
