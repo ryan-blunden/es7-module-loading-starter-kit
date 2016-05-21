@@ -4,14 +4,12 @@
 
 Aiming to be the world's simplest setup for transpiling, linting and loading ES2015 in the browser!
 
-Now everyone can learn and experiment with ES2015.
-
-**NOTE**: THis is a browser specific project. Using ES2015 in Node.js is a lot simpler and is well covered by the babel documentation.
+**NOTE**: This is using with a Browser. Using ES2015 in Node.js is a lot simpler and is well covered by the babel documentation.
 
 
 ## Requirements
 
-Node.js is the only requirement. We recommend you use the latest version available.
+Node.js is the only requirement. I recommend you use the latest version available.
 
 
 ## Getting Started
@@ -21,7 +19,7 @@ Clone or download this repository to your computer.
 
 ## Setup
 
-Once downloaded, open a commandline window, change into this root directory for this project, then run `npm install` to install all required dependencies.
+Once downloaded, open a commandline window, navigate to the root directory, then run `npm install` to install all required dependencies.
 
 
 ## To verify everything is working
@@ -52,7 +50,7 @@ If you're having trouble, please raise an issue on Github.
 
 ## Why I created this project.
 
-I teach classes on ES2015 and was frustrated with the size, complexity and scope of the current boilerplate / starter kits.
+I teach classes on ES2015 and was frustrated with the size, complexity and scope of the other current boilerplate / starter kits.
 
 I wanted something that would:
   - Teach someone why everything in the starter kit exists.
@@ -68,7 +66,7 @@ I wanted something that would:
 
 ## Contributing
 
-I would welcome contributions, questions and feedback and will do my best to respond in a timely manner.
+Contributions, questions and feedback are all welcome and will do my best to respond in a timely manner.
 
 Bear in mind this is not a HTML5 boilerplate competitor or the like. It's just a simple project that shows the minimal amount of third party resources and code required to transpile, lint and load ES2015.
 
