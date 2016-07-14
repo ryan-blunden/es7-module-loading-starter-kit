@@ -4,12 +4,12 @@
 
 Aiming to be the world's simplest setup for transpiling, linting and loading ES2015 in the browser!
 
-**NOTE**: This is using with a Browser. Using ES2015 in Node.js is a lot simpler and is well covered by the babel documentation.
+**NOTE**: This projects demonstrates ES2015 usage in a browser environment. Using ES2015 in Node.js is a lot simpler and is well covered by the Babel documentation.
 
 
 ## Requirements
 
-Node.js is the only requirement. I recommend you use the latest version available.
+Node.js is the only requirement for development. I recommend you use the latest version of Node and npm available.
 
 
 ## Getting Started
