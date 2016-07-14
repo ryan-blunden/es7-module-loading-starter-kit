@@ -2,12 +2,13 @@
   "name": "rabbitbird-es2015-kit",
   "description": "Aiming to be the world's simplest setup for transpiling, linting and loading ES2015.",
   "version": "1.0.0",
-  "author": "Ryan Blunden <ryan.blunden at rabbitbird dot com>",
+  "author": "Ryan Blunden <ryan dot blunden at rabbitbird dot com>",
   "scripts": {
     "check": "babel-doctor",
     "lint": "eslint es/**",
     "transpile": "babel es --out-dir js",
-    "server": "http-server ./"
+    "server": "http-server ./",
+    "watcher": "forever bin/watcher.js"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -17,14 +18,7 @@
     "babel-preset-es2015": "*",
     "eslint": "*",
     "http-server": "*",
-    "node-watch": "*"
-  },
-  "dependencies": {
-    "babel-cli": "^6.9.0",
-    "babel-eslint": "^6.0.4",
-    "babel-plugin-transform-es2015-modules-systemjs": "^6.9.0",
-    "babel-polyfill": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0",
-    "eslint": "^2.10.2"
+    "node-watch": "*",
+    "forever": "*"
   }
 }

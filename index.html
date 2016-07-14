@@ -13,17 +13,9 @@
 <body>
 
 <script src="js/lib/system.js"></script>
+<script src="js/systemjs.config.js"></script>
 <script>
-    System.config({
-        defaultJSExtensions: true,
-
-        baseURL: '/js',
-        map: {
-            'babel-polyfill': 'lib/babel-polyfill',
-            'jquery': 'lib/jquery-2.2.3.min'
-        }
-    });
-
+    // How we execute project specific JS for this page
     System.import('main');
 </script>
 </body>
