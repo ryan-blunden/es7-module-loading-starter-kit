@@ -3,11 +3,17 @@
   "description": "Aiming to be the world's simplest setup for transpiling, linting and loading ES2015.",
   "version": "1.0.0",
   "author": "Ryan Blunden <ryan dot blunden at rabbitbird dot com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryan-blunden/rabbitbird-es2015-kit.git"
+  },
   "scripts": {
     "check": "babel-doctor",
     "lint": "eslint es/**",
     "transpile": "babel es --out-dir js",
     "server": "http-server ./",
+    "start": "http-server ./",
     "watcher": "forever bin/watcher.js"
   },
   "devDependencies": {
