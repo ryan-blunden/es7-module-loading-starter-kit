@@ -19,13 +19,13 @@ Clone or download this repository to your computer.
 
 ## Setup
 
-Once downloaded, open a commandline window, navigate to the root directory, then run `npm install` to install all required dependencies.
+Once downloaded, open a commandline window, navigate to the root directory.
 
 
 ## To verify everything is working
  
 Run in this order:
- - `npm run check`
+ - `npm install`
  - `npm run lint`
  - `npm run transpile`
  - `npm run server`
@@ -35,7 +35,7 @@ After running `npm run server`, open a web browser and navigate to http://localh
 
 ## Watcher for transpiling ES2015 files on save
 
-An experimental and very simple watcherhas been added. You can run it by executing `npm run watcher`.
+An experimental and very simple watcher has been added. You can run it by executing `npm run watcher`.
  
 ## Supported browsers 
 

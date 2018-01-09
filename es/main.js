@@ -1,7 +1,7 @@
 import 'babel-polyfill'; // For less spec compliant browsers
 import $ from 'jquery';
 
-import Hello from 'views/hello';
+import Hello from 'views/hello.js';
 
 // Test module loading
 let hello = new Hello();
